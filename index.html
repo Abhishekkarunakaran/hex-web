@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Color</title>
+    <link rel="stylesheet" href="style.css"></style>
+    <script src="index.js"></script>
+</head>
+<body>
+    <section>
+        <div id="container">
+                <div id="color-code">
+                    <label for="text-red" class="red-label" >Red</label><br>
+                    <input type="text" id="text-red" maxlength="2" >
+                </div>
+                <div id="color-code">
+                    <label for="text-green" class="green-label">Green</label><br>
+                    <input type="text" id="text-green" maxlength="2" >
+                </div>
+                <div id="color-code">
+                    <label for="text-blue" class="blue-label">Blue</label><br>
+                    <input type="text" id="text-blue" maxlength="2" >
+                </div><br>
+                <button id="submit-btn" type="button" title="Submit the color code" onclick="changeColor()" > Submit </button>
+            <p id="code"></p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,68 @@
+section {
+    width: 100%;
+}
+
+.red-label {
+    color: tomato;
+}
+
+.green-label {
+    color: green;
+}
+
+.blue-label {
+    color: navy;
+}
+
+#color-code {
+    margin: 10px 0;
+}
+
+
+#text-red {
+    border: 1px solid tomato;
+    border-radius: 3px;
+    height: 20px;
+    width: 97%;
+}
+#text-green {
+    border: 1px solid green;
+    border-radius: 3px;
+    height: 20px;
+    width: 97%;
+}
+#text-blue {
+    border: 1px solid navy;
+    border-radius: 3px;
+    height: 20px;
+    width: 97%;
+}
+
+#submit-btn {
+    width: 175px;
+    height: 20px;
+    margin-left: 6%;
+    border: 0;
+    color: antiquewhite;
+    border-radius: 5px;
+    background-color: #555;
+    box-shadow: 0 5px 5px 0 #808080;
+}
+
+#container {
+    background-color: white;
+    width: 200px;
+    height: 235px;
+    padding: 10px 20px 20px 20px;
+    top: 50%;
+    left:50%;
+    margin-left: -110px;
+    margin-top: -100px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px rgba(0,0,0,0.2);
+}
+
+#code {
+    text-align: center;
+}
